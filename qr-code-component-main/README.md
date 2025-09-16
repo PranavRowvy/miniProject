@@ -6,7 +6,7 @@ This is a solution to the **QR Code Component Challenge** from [Frontend Mentor]
 
 ## 🚀 Live Demo
 
-You can view the live project here: [Live Site](https://PranavRowvy.github.io/qr-code-component-main)
+You can view the live project here: [Live Site](https://PranavRowvy/qr-code-component-main/index.html)
 
 ## 🔧 Built With
 
