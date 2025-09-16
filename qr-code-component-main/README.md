@@ -22,3 +22,4 @@ This challenge helped reinforce core web development fundamentals, including:
 - Styling with CSS including padding, margin, borders, and shadows
 - Responsiveness and alignment using Flexbox
 - Proper folder and asset organization for a front-end project
+
