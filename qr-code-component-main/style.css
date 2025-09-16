@@ -1,0 +1,96 @@
+@layer color {
+:root {
+    --c-slate900 : rgb(31, 49, 79);
+    --c-slate500 : rgb(104, 119, 141);
+    --c-slate300 : rgb(213, 225, 239);
+    --c-white : rgb(255, 255, 255);
+}
+}
+
+@layer fonts {
+    /* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('images/fonts/outfit-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 900;
+  src: url('images/fonts/outfit-v15-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    body {
+        background-color: var(--c-slate300);
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+        min-height: 100vh;      
+        margin: 0; 
+    }
+
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight:900;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: var(--c-slate900);
+    text-align: center;
+    margin-bottom: 16px;
+    
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px ;
+    line-height: 140%;
+    letter-spacing: 0.2px; 
+    color: var(--c-slate500);
+    text-align: center;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 499px;
+    width: 320px;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--c-white);
+    gap: 24px;
+}
+
+.qr img {
+    height: 288px;
+    width: 288px;
+
+}
+
+.info {
+    height: 131px;
+    width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
